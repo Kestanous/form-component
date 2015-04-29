@@ -1,0 +1,10 @@
+template(name='InputComponent.Text')
+  div(class="input {{invalidClass}}")
+    label {{name}}
+    input(type='text' value="{{value}}" name='{{name}}', id='{{name}}')
+
+template(name='InputComponent.Checkbox')
+  div(class="input {{invalidClass}}")
+    label {{name}}
+    input(type='checkbox' checked="{{value}}" name='{{name}}', id='{{name}}') 
+  

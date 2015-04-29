@@ -1,0 +1,9 @@
+template(name='ExampleComponent')
+  h2 {{name}}
+  form
+    +InputComponent.Text name='name'
+    br
+    +InputComponent.Checkbox name='bottomUnit'
+    br
+    input(type='submit' disabled='{{isInvalid}}') 
+  
